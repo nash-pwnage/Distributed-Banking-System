@@ -1,0 +1,16 @@
+# A sample input file for a client
+
+2 # number of tasks
+
+# format is (a,b,c,d,e) where ‘a’ is ‘task type’ (I/D/W/T/S), ‘b’ is ‘from account’, 
+# ‘c’ is ‘to account’, ‘d’ is ‘amount’ 
+# ‘-’ means not relevant 
+# Task type codes: 
+# I: inquiry 
+# D: deposit 
+# W: withdrawal 
+# T: transfer 
+# S: snapshot
+
+(D,2,-,20) 
+(W,5,-,50) 

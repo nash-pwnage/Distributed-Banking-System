@@ -1,0 +1,23 @@
+# A sample configuration file
+3 # number of servers
+
+# server set up
+# format is (i,j,k) where i is server id, j is host name and k is port number
+0 net31.utdallas.edu 4444
+1 net32.utdallas.edu 4444
+2 net33.utdallas.edu 4444
+
+8 # number of accounts
+
+# account set up
+# format is (i,j,k) where i is account number, j is server id and k is initial
+# account balance
+
+(0,0,100)
+(1,0,200)
+(2,0,100)
+(3,2,300)
+(4,1,250)
+(5,2,150)
+(6,1,130)
+(7,0,110)
